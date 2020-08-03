@@ -1,5 +1,8 @@
 import time
 
+
+
+
 start_time = time.time()
 
 f = open('names_1.txt', 'r')
@@ -10,7 +13,7 @@ f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
-duplicates = []  # Return the list of duplicates in this data structure
+duplicates = []  # Return the list of duplicates in this data structur
 
 # Replace the nested for loops below with your improvements
 for name_1 in names_1:
